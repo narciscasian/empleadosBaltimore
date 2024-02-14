@@ -1,0 +1,16 @@
+---
+title: "Empleados"
+author: "Narcis"
+date: "2024-02-14"
+output: html_document
+---
+
+```{r}
+library(readr)
+Baltimore_empleados <- read_csv("data/Baltimore_City_Employee_Salaries_FY2015.csv")
+
+```
+
+
+
+
