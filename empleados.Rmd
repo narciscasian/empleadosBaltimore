@@ -4,11 +4,16 @@ author: "Narcis"
 date: "2024-02-14"
 output: html_document
 ---
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ```{r}
-library(readr)
-Baltimore_empleados <- read_csv("data/Baltimore_City_Employee_Salaries_FY2015.csv")
-
+rm(list = ls())
+```
+#Importacion con Rbase
+```{r}
+datos_baltimore<- read.csv("data/Baltimore_City_Employee_Salaries_FY_2022.csv")
 ```
 
 
