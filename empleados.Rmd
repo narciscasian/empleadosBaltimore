@@ -21,6 +21,12 @@ library(readr)
 datosReadr <- read_csv("data/Baltimore_City_Employee_Salaries.csv", 
     col_types = cols(hireDate = col_date(format = "%Y-%m-%d")))
 ```
+#Importación con Rio
+```{r}
+library(pacman)
+library(rio)
+datosRio <- import(file = "data/Baltimore_City_Employee_Salaries.csv")
 
+```
 
 
