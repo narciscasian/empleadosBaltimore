@@ -13,9 +13,13 @@ rm(list = ls())
 ```
 #Importacion con Rbase
 ```{r}
-datos_baltimore<- read.csv("data/Baltimore_City_Employee_Salaries_FY_2022.csv")
+employee_salary <- read.csv("data/Baltimore_City_Employee_Salaries.csv")
 ```
 
+```{r}
+
+
+```
 
 
 
